@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title> Breezy's Place</title>
+    <link rel="stylesheet" href="BreezysPlace.css">
+    <script src="BreezysPlace.js"></script>
+</head>
+
+<body>
+    <header>
+    <div class="header-img" style="float:left"><a href="Index.html"><img src="unnamed.png"
+        width="150px" height="150px"></a></div>
+        Breezys Place<br> 
+        <div class = ip>123.456.6789:6789</div>
+        <div class = links style="float:right">
+        
+        <a href="https://discord.gg/UhTRjYyWzR" target="_blank">Discord</a>
+        <a href="Donations.html">Donations</a>
+
+        <button class="button" onclick="openForm()">Appeals Form</button>
+
+            <div class="appeals" id="appeals">
+                <form class="form-container"
+                    action="https://formsubmit.co/breezyneon1@gmail.com" method="POST">
+                 
+                <label for="Name"><h3>Player Name</h3></label>
+                <input type="text" placeholder="John Doe" name="Name" required>
+              
+                <label for="Date"><h3>Date Of Ban</h3></label>
+                <input type="date" placeholder="01-01-2000" name="Date">
+              
+                <label for="Message"><h3>Appeal Message</h3></label>
+                <textarea id="message" rows="7" cols="62" style="margin-left: 5px;" required></textarea>
+
+                  <button type="submit" class="submit"> Submit</button>
+                  <button type="close"  class="close" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+
+
+

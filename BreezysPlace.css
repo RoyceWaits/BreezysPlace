@@ -1,0 +1,121 @@
+html {
+    background-image: url("Server\ Icon.jpg");
+    background-size: 1900px 1000px;
+    font-family: "Lucida Console";
+  }
+
+  header{
+    color: #9d00ff;
+    font-size: 78px;
+    text-align: center;
+    background-color: black;
+    border: 4px solid #39ff14;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-left: -50px;
+    padding-top: 10px;
+  }
+
+  .ip{
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 38px;
+    color:white;
+  }
+
+  h1{
+    font-size: 42px;
+    color: white;
+  }
+
+  .header-img{
+    margin-left: 550px;
+    margin-right: -550px;
+  }
+
+  .links{
+    font-size: 20px;
+    margin-top: -10px;
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+
+  .button {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+  color: #9d00ff;
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: "Lucida Console";
+}
+
+.button:hover{
+  color:#39ff14;
+}
+
+a:link{
+  color:#9d00ff;
+  font-family: "Lucida Console";
+}
+
+a:visited{
+  color:#9d00ff;
+  font-family: "Lucida Console";
+}
+
+a:hover{
+  color:#39ff14;
+  font-family: "Lucida Console";
+}
+
+.appeals {
+  display: none;
+  position: absolute;
+  margin-left: -1050px;
+  margin-top: 50px;
+  border: 5px solid #39ff14;
+  border-radius: 15px;
+  font-family: "Lucida Console";
+}
+
+.form-container {
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.form-container input[type=text], input[type=date]{
+  width: 75%;
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+}
+
+.form-container .submit {
+  background-color: #9d00ff;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  cursor: pointer;
+  width: 100%;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family: "Lucida Console";
+}
+
+.form-container .close {
+  background-color: #39ff14;
+  font-size: 25px;
+  padding: 15px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Lucida Console";
+}
+
+.body-container{
+  margin-left: 250px;
+  margin-right: 350px;
+}
